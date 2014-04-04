@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CrowdBook</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "foundation.min" %>
+  <%= javascript_include_tag "jquery-1.11.0.min" %>
+  <%= javascript_include_tag "main" %>
+  <%= javascript_include_tag "modernizr-2.7.1.min" %>
+  <%= javascript_include_tag "plugins" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
